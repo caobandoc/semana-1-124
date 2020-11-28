@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    border: solid 1px black;
+    background-color: #ffce47;
+}
+
+footer img {
+    width: 200px;
+    height: 200px;
+}
+
+footer div {
+    width: 50%;
+    text-align: center;
+}
+
+.autores {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.autores ul {
+    list-style: none;
+}
