@@ -24,6 +24,8 @@ footer div {
 
 .autores ul {
     list-style: none;
+}
+
 * {
     font-family: sans-serif;
 }
@@ -73,6 +75,7 @@ footer div {
     padding-left: 10px;
     padding-right: 10px;
     text-transform: uppercase;
+}
 
 body {
     margin: 0px;
