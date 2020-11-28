@@ -24,4 +24,86 @@ footer div {
 
 .autores ul {
     list-style: none;
+* {
+    font-family: sans-serif;
+}
+
+#news div {
+    border: solid 1px black;
+    display: inline-block;
+}
+
+#news {
+    justify-content: center;
+    display: flex;
+}
+
+.fila {
+    display: block;
+    width: 100%;
+}
+
+.colm {
+    background-color: #7efff3;
+    width: 49.85%;
+    height: 240px;
+}
+
+.colm {
+    float: right;
+}
+
+.colm img {
+    border: solid 1px black;
+    width: 200px;
+    height: 130px;
+    position: initial;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.colm p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.colm h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+
+body {
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+ul {
+    padding: 0px;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    margin-right: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu img {
+    width: 100%;
+    height: 50px;
 }
