@@ -14,7 +14,7 @@ header {
     height: 50px;
 }
 
-ul {
+header ul {
     padding: 0px;
     align-items: center;
     display: flex;
@@ -22,7 +22,7 @@ ul {
     justify-content: center;
 }
 
-li {
+header li {
     margin-right: 100px;
     text-align: center;
     text-transform: uppercase;
@@ -95,6 +95,36 @@ a {
 
 
 /* fin news */
+
+/* team */
+ #team {display: flex;
+    min-width: 1200px;
+    width: 100%;
+    border: solid 1px black;
+}
+
+#team div{
+    border: solid 1px black;
+    width: 50%;
+    background-color: #b7fe66; 
+    }
+
+#team h4{
+    margin-left:15px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#team img
+{
+width: 200px;
+float: right;
+border: solid 1px black;
+margin: 5px;
+
+}
+/* fin team */
 
 
 /* footer */
