@@ -41,6 +41,36 @@ a {
 
 /* fin header */
 
+/* services */
+#services{
+    
+    display: flex;
+    border: solid 1.5px black;
+    min-width: 1200px;
+    width: 100%;
+}
+
+#services div{
+    background-color: #F59967;
+    padding: 10px;
+    text-align: center;
+    width: 33%;
+    border: solid 1.5px black;
+
+}
+
+#services img{
+height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#services h3{
+    text-transform: uppercase;
+}
+
+/* fin services */
 
 /* news */
 
