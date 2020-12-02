@@ -117,37 +117,3 @@ body {
 
 
 /* fin team */
-
-
-/* footer */
-
-footer {
-    display: flex;
-    min-width: 1200px;
-    width: 100%;
-}
-
-footer img {
-    width: 200px;
-    height: 200px;
-}
-
-footer div {
-    width: 50%;
-    text-align: center;
-}
-
-.autores {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-transform: uppercase;
-}
-
-.autores ul {
-    list-style: none;
-}
-
-
-/* fin footer */
