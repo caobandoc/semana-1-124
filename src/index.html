@@ -4,47 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina web</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Vuejs desde cero</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
     <header>
         <nav class="menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#news">Noticias</a></li>
-                <li><a href="#team">Equipo</a></li>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#services">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#news">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#team">Equipo</a>
+                </li>
             </ul>
             <img src="./images/header.jpg" alt="">
         </nav>
     </header>
-    <div id="services">
-        <div>
-            <img src="./images/services1.png" alt="">
-            <h3>consolas</h3>
-            <p>Descubre el increíble Mundo Gamer que tenemos para ti  este Cyber Monday. Encuentra tu Consola favorita y juega con tu PS4 o tu Nintendo Switch </p>
-            
+    <div id="services" class="alert alert-primary">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./images/services1.png" alt="">
+            <div class="card-body">
+                <h5 class="card-title">consolas</h5>
+                <p class="card-text">Descubre el increíble Mundo Gamer que tenemos para ti este Cyber Monday. Encuentra tu Consola favorita y juega con tu PS4 o tu Nintendo Switch </p>
+            </div>
         </div>
-        <div>
-            <img src="./images/services2.jpg" alt="" class="imgb">
-            <h3>juegos</h3>
-            <p> los clásicos como Fifa, Mario Kart y mucho más.</p>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./images/services2.jpg" alt="">
+            <div class="card-body">
+                <h5 class="card-title">juegos</h5>
+                <p class="card-text"> los clásicos como Fifa, Mario Kart y mucho más.</p>
+            </div>
         </div>
-        <div>
-            <img src="./images/services3.jpg" alt="" class="imgb">
-            <h3>accesorios</h3>
-            <p>Lleva tu experiencia a otro nivel con los Accesorios para Videojuegos y mantente atent@ a la preventa del PS5 a un solo click.</p>
+        <div class="card" style="width: 18rem;">
+            <img src="./images/services3.jpg" alt="">
+            <div class="card-body">
+                <h5 class="card-title">accesorios</h5>
+                <p class="card-text">Lleva tu experiencia a otro nivel con los Accesorios para Videojuegos y mantente atent@ a la preventa del PS5 a un solo click.</p>
+            </div>
         </div>
-
     </div>
-    <div id="news">
+    <div id="news" class="alert alert-success">
         <div class="fila">
             <div class="colm"><img src="./news/ps5.jpg" alt="">
                 <h3>Sony dice que la PlayStation 5 ya es el mayor lanzamiento de su historia y promete más stock para este año</h3>
                 <p>La PlayStation 5 llegó al mercado hace apenas unas semanas y ya se convirtió en el mayor lanzamiento en la historia de Sony. La empresa publicó en su cuenta de Twitter un mensaje de agradecimiento por el hito y dijo que tratará de satisfacer
-                    la alta demanda de su consola enviando más unidades antes de fin de año.<br><br> Noticia completa: <a href="https://www.hd-tecnologia.com/sony-dice-que-la-playstation-5-ya-es-el-mayor-lanzamiento-de-su-historia-y-promete-mas-stock-para-este-ano/">Aqui</a>
+                    la alta demanda de su consola enviando más unidades antes de fin de año.<br><br> Noticia completa:
+                    <a href="https://www.hd-tecnologia.com/sony-dice-que-la-playstation-5-ya-es-el-mayor-lanzamiento-de-su-historia-y-promete-mas-stock-para-este-ano/">Aqui</a>
                 </p>
             </div>
             <div class="colm"><img src="./news/CupHead.jpg" alt="">
@@ -56,9 +70,11 @@
         </div>
         <div class="fila">
             <div class="colm"><img src="./news/RTX.jpg" alt="">
-                <h3>NVIDIA habría ganado $175 millones de dólares en ventas de GeForce RTX 30 a mineros de criptomonedas</h3>
+                <h3>NVIDIA habría ganado $175 millones de dólares en ventas de GeForce RTX 30 a mineros de criptomonedas
+                </h3>
                 <p>El faltante de stock de la serie GeForce RTX 30 podría tener otro actor principal, y es que los informes de los analistas financieros sugieren que NVIDIA le habría vendido gran parte de sus nuevas GPUs Ampere a los mineros de criptomonedas.
-                    Esto podría indicar por qué hay una escasez inmensa que durará hasta 2021.<br><br> Noticia completa: <a href="https://www.hd-tecnologia.com/nvidia-habria-ganado-175-millones-de-dolares-en-ventas-de-geforce-rtx-30-a-mineros-de-criptomonedas/">Aqui</a>
+                    Esto podría indicar por qué hay una escasez inmensa que durará hasta 2021.<br><br> Noticia completa:
+                    <a href="https://www.hd-tecnologia.com/nvidia-habria-ganado-175-millones-de-dolares-en-ventas-de-geforce-rtx-30-a-mineros-de-criptomonedas/">Aqui</a>
                 </p>
             </div>
             <div class="colm"><img src="./news/TSMC.jpg" alt="">
@@ -69,7 +85,7 @@
             </div>
         </div>
     </div>
-    <div id="team">
+    <div id="team" class="alert alert-light">
         <div>
             <img src="./images/caoc.jpg" alt="">
             <h4>Carlos Obando</h4>
@@ -83,15 +99,13 @@
             <img src="./images/estilo.jpg" alt="">
             <h4>Andrés Mora</h4>
             <ul>
-                
                 <li>Edad: 37</li>
                 <li>Institución Educativa: Universidad Técnologica e Pereira</li>
                 <li>Pasatiempo: Futbol</li>
-                
             </ul>
         </div>
     </div>
-    <footer>
+    <footer class="alert alert-warning">
         <div>
             <p>Desarrollo de la primera pagina web del reto-semana #1, donde aplicamos conocimientos en css</p>
             <a href="https://github.com/caobandoc/semana-1-124"><img src="./images/GitHub.png" alt=""></a>
@@ -108,6 +122,8 @@
             </ul>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 
 </html>
